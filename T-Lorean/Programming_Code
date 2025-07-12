@@ -10,7 +10,7 @@ const int READING_INTERVAL = 100;       // Sonar reading interval
 
 task main() {
     SetSensorLowspeed(sonarSensor);     // Configure ultrasonic sensor
-    Wait(3000);                          // Wait 3 seconds before starting
+    Wait(5000);                          // Wait 5 seconds before starting
 
     while(true) {
         int distance = SensorUS(sonarSensor);
